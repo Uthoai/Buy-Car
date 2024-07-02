@@ -1,7 +1,7 @@
 package com.buy.car.data
 
 data class CategoryDomain(
-    val id: String = "",
+    var id: Int = 0,
     val title: String = "",
     val picUrl: String = ""
 )
