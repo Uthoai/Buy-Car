@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "354560447988",
+    "project_id": "buycar-ecom",
+    "storage_bucket": "buycar-ecom.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354560447988:android:9df344001b339031c8d5a1",
+        "android_client_info": {
+          "package_name": "com.buy.car"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbKRKXpJgB63Bx0CQNzdSlDHToPtMOy5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
