@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.BuyCar" parent="Base.Theme.BuyCar" />
+
+    <style name="CustomBottomNavTheme" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="android:background">@drawable/black_bg</item>
+        <item name="itemIconTint">@color/white</item>
+        <item name="itemTextColor">@color/white</item>
+    </style>
 </resources>
