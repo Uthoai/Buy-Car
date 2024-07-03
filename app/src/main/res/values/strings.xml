@@ -16,4 +16,13 @@
     <string name="view_all">view all</string>
     <string name="title">title</string>
     <string name="_0">$0</string>
+    <string name="car_detail">Car Detail</string>
+    <string name="_0_0">0.0</string>
+    <string name="description">From the deep roar of the fine-tuned V-8 engine to dynamics engineered by BMW M, the 2025 BMW M850i xDrive Coupe is designed to satisfy the most driven thrill-seekers.</string>
+    <string name="total_ncapacity">Total \nCapacity</string>
+    <string name="_4_seats">4 seats</string>
+    <string name="highest_nspeed">Highest \nSpeed</string>
+    <string name="_190_km_h">190 KM/H</string>
+    <string name="engine_noutput">Engine \nOutput</string>
+    <string name="price">Price</string>
 </resources>

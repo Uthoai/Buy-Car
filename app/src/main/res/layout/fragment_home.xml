@@ -25,7 +25,8 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 android:layout_marginTop="48dp"
-                android:layout_marginStart="24dp"/>
+                android:layout_marginStart="24dp"
+                tools:ignore="ContentDescription" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -48,30 +49,33 @@
                 android:textStyle="bold"/>
 
             <ImageView
+                android:id="@+id/bell"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/bell"
                 app:layout_constraintTop_toTopOf="@id/iv_userPic"
                 app:layout_constraintBottom_toBottomOf="@id/iv_userPic"
                 app:layout_constraintEnd_toEndOf="parent"
-                android:layout_marginEnd="24dp"/>
+                android:layout_marginEnd="24dp"
+                tools:ignore="ContentDescription" />
 
             <EditText
                 android:id="@+id/et_search"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="text"
-                android:hint="@string/search_car"
+                android:layout_height="48dp"
+                android:layout_marginHorizontal="24dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/rec_white_bg"
                 android:drawableStart="@drawable/search_icon"
                 android:drawablePadding="8dp"
+                android:ems="10"
+                android:hint="@string/search_car"
+                android:inputType="text"
                 android:padding="8dp"
-                android:background="@drawable/rec_white_bg"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/iv_userPic"
-                android:layout_marginHorizontal="24dp"
-                android:layout_marginTop="24dp"/>
+                tools:ignore="Autofill,TextContrastCheck,VisualLintTextFieldSize" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recView_CarCategory"
