@@ -9,8 +9,7 @@ import coil.load
 import com.buy.car.Nodes
 import com.buy.car.data.CarDomain
 import com.buy.car.databinding.CarItemLayoutBinding
-import com.buy.car.view.DetailActivity
-import com.google.firebase.database.core.Context
+import com.buy.car.view.detail.DetailActivity
 
 class CarAdapter(private val context: android.content.Context,private val itemList: List<CarDomain>): RecyclerView.Adapter<CarViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CarViewHolder {
@@ -31,7 +30,7 @@ class CarAdapter(private val context: android.content.Context,private val itemLi
                 ivCarItem.load(item.picUrl)
 
                 root.setOnClickListener {
-                    val intent = Intent(context,DetailActivity::class.java)
+                    val intent = Intent(context, DetailActivity::class.java)
                     intent.putExtra(Nodes.OBJECT,item)
                     context.startActivity(intent)
                 }

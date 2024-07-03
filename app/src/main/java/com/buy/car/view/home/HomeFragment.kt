@@ -1,23 +1,15 @@
 package com.buy.car.view.home
 
-import android.content.Intent
-import android.util.Log
 import android.view.View
 import androidx.lifecycle.lifecycleScope
-import androidx.navigation.fragment.findNavController
-import com.buy.car.R
 import com.buy.car.adapter.CarAdapter
 import com.buy.car.adapter.CategoryAdapter
 import com.buy.car.base.BaseFragment
 import com.buy.car.data.CarDomain
 import com.buy.car.data.CategoryDomain
 import com.buy.car.databinding.FragmentHomeBinding
-import com.buy.car.view.DetailActivity
-import com.google.firebase.database.DataSnapshot
-import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
-import com.google.firebase.database.ValueEventListener
 import com.google.firebase.database.getValue
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -36,10 +28,6 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>(FragmentHomeBinding::infl
 
         setupRecyclerViews()
         fetchData()
-
-        binding.bell.setOnClickListener {
-            startActivity(Intent(requireContext(),DetailActivity::class.java))
-        }
 
     }
 

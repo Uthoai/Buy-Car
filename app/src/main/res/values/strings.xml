@@ -25,4 +25,11 @@
     <string name="_190_km_h">190 KM/H</string>
     <string name="engine_noutput">Engine \nOutput</string>
     <string name="price">Price</string>
+    <string name="social_media_link">Social Media Link</string>
+    <string name="contact_support">Contact Support</string>
+    <string name="rating_and_review">Rating and Review</string>
+    <string name="common_function">Common Function</string>
+    <string name="maintain">Maintain</string>
+    <string name="auto_parts">Auto Parts</string>
+    <string name="driving_skill">Driving skill</string>
 </resources>
